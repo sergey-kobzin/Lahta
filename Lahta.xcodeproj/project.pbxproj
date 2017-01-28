@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D96982831E3D37A100A2D8EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96982821E3D37A100A2D8EC /* AppDelegate.swift */; };
+		D96982851E3D37A100A2D8EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96982841E3D37A100A2D8EC /* ViewController.swift */; };
+		D96982881E3D37A100A2D8EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D96982861E3D37A100A2D8EC /* Main.storyboard */; };
+		D969828A1E3D37A100A2D8EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D96982891E3D37A100A2D8EC /* Assets.xcassets */; };
+		D969828D1E3D37A100A2D8EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D969828B1E3D37A100A2D8EC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D969827F1E3D37A100A2D8EC /* Lahta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lahta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D96982821E3D37A100A2D8EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D96982841E3D37A100A2D8EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D96982871E3D37A100A2D8EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D96982891E3D37A100A2D8EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D969828C1E3D37A100A2D8EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D969828E1E3D37A100A2D8EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D969827C1E3D37A100A2D8EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D96982761E3D37A100A2D8EC = {
+			isa = PBXGroup;
+			children = (
+				D96982811E3D37A100A2D8EC /* Lahta */,
+				D96982801E3D37A100A2D8EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D96982801E3D37A100A2D8EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D969827F1E3D37A100A2D8EC /* Lahta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D96982811E3D37A100A2D8EC /* Lahta */ = {
+			isa = PBXGroup;
+			children = (
+				D96982821E3D37A100A2D8EC /* AppDelegate.swift */,
+				D96982841E3D37A100A2D8EC /* ViewController.swift */,
+				D96982861E3D37A100A2D8EC /* Main.storyboard */,
+				D96982891E3D37A100A2D8EC /* Assets.xcassets */,
+				D969828B1E3D37A100A2D8EC /* LaunchScreen.storyboard */,
+				D969828E1E3D37A100A2D8EC /* Info.plist */,
+			);
+			path = Lahta;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D969827E1E3D37A100A2D8EC /* Lahta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D96982911E3D37A100A2D8EC /* Build configuration list for PBXNativeTarget "Lahta" */;
+			buildPhases = (
+				D969827B1E3D37A100A2D8EC /* Sources */,
+				D969827C1E3D37A100A2D8EC /* Frameworks */,
+				D969827D1E3D37A100A2D8EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lahta;
+			productName = Lahta;
+			productReference = D969827F1E3D37A100A2D8EC /* Lahta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D96982771E3D37A100A2D8EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Sergey.Kobzin;
+				TargetAttributes = {
+					D969827E1E3D37A100A2D8EC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UHYM8EB58U;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D969827A1E3D37A100A2D8EC /* Build configuration list for PBXProject "Lahta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D96982761E3D37A100A2D8EC;
+			productRefGroup = D96982801E3D37A100A2D8EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D969827E1E3D37A100A2D8EC /* Lahta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D969827D1E3D37A100A2D8EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D969828D1E3D37A100A2D8EC /* LaunchScreen.storyboard in Resources */,
+				D969828A1E3D37A100A2D8EC /* Assets.xcassets in Resources */,
+				D96982881E3D37A100A2D8EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D969827B1E3D37A100A2D8EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D96982851E3D37A100A2D8EC /* ViewController.swift in Sources */,
+				D96982831E3D37A100A2D8EC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D96982861E3D37A100A2D8EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D96982871E3D37A100A2D8EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D969828B1E3D37A100A2D8EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D969828C1E3D37A100A2D8EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D969828F1E3D37A100A2D8EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D96982901E3D37A100A2D8EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D96982921E3D37A100A2D8EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UHYM8EB58U;
+				INFOPLIST_FILE = Lahta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sergey.kobzin.Lahta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D96982931E3D37A100A2D8EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UHYM8EB58U;
+				INFOPLIST_FILE = Lahta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sergey.kobzin.Lahta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D969827A1E3D37A100A2D8EC /* Build configuration list for PBXProject "Lahta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D969828F1E3D37A100A2D8EC /* Debug */,
+				D96982901E3D37A100A2D8EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D96982911E3D37A100A2D8EC /* Build configuration list for PBXNativeTarget "Lahta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D96982921E3D37A100A2D8EC /* Debug */,
+				D96982931E3D37A100A2D8EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D96982771E3D37A100A2D8EC /* Project object */;
+}
