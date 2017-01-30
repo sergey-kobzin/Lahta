@@ -10,15 +10,13 @@ import UIKit
 
 class MainScreenViewController: UIViewController {
 
-    @IBOutlet weak var mainView: UIView!
+    @IBOutlet weak var contentView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        print("123")
-        
-        mainView.layer.shadowOpacity = 0.5
-        mainView.layer.shadowRadius = 5
+        contentView.layer.shadowOpacity = 0.5
+        contentView.layer.shadowRadius = 5
     }
 
     override func didReceiveMemoryWarning() {
