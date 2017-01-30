@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D96982831E3D37A100A2D8EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96982821E3D37A100A2D8EC /* AppDelegate.swift */; };
-		D96982851E3D37A100A2D8EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96982841E3D37A100A2D8EC /* ViewController.swift */; };
+		D96982851E3D37A100A2D8EC /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96982841E3D37A100A2D8EC /* MainScreenViewController.swift */; };
 		D96982881E3D37A100A2D8EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D96982861E3D37A100A2D8EC /* Main.storyboard */; };
 		D969828A1E3D37A100A2D8EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D96982891E3D37A100A2D8EC /* Assets.xcassets */; };
 		D969828D1E3D37A100A2D8EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D969828B1E3D37A100A2D8EC /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		D969827F1E3D37A100A2D8EC /* Lahta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lahta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D96982821E3D37A100A2D8EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D96982841E3D37A100A2D8EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D96982841E3D37A100A2D8EC /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
 		D96982871E3D37A100A2D8EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D96982891E3D37A100A2D8EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D969828C1E3D37A100A2D8EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				D96982821E3D37A100A2D8EC /* AppDelegate.swift */,
-				D96982841E3D37A100A2D8EC /* ViewController.swift */,
+				D96982841E3D37A100A2D8EC /* MainScreenViewController.swift */,
 				D96982861E3D37A100A2D8EC /* Main.storyboard */,
 				D96982891E3D37A100A2D8EC /* Assets.xcassets */,
 				D969828B1E3D37A100A2D8EC /* LaunchScreen.storyboard */,
@@ -96,8 +96,7 @@
 				TargetAttributes = {
 					D969827E1E3D37A100A2D8EC = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = UHYM8EB58U;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -137,7 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D96982851E3D37A100A2D8EC /* ViewController.swift in Sources */,
+				D96982851E3D37A100A2D8EC /* MainScreenViewController.swift in Sources */,
 				D96982831E3D37A100A2D8EC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +258,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UHYM8EB58U;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Lahta/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sergey.kobzin.Lahta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,8 +272,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UHYM8EB58U;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Lahta/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sergey.kobzin.Lahta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
