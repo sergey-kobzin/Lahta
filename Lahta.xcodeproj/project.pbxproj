@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8BED1DC71E40FEC6007A990B /* SideMenuItemsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BED1DC51E40FEC6007A990B /* SideMenuItemsTableViewCell.swift */; };
+		8BED1DC81E40FEC6007A990B /* SideMenuItemsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BED1DC61E40FEC6007A990B /* SideMenuItemsTableViewCell.xib */; };
 		D96982831E3D37A100A2D8EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96982821E3D37A100A2D8EC /* AppDelegate.swift */; };
 		D96982851E3D37A100A2D8EC /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96982841E3D37A100A2D8EC /* MainScreenViewController.swift */; };
 		D96982881E3D37A100A2D8EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D96982861E3D37A100A2D8EC /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8BED1DC51E40FEC6007A990B /* SideMenuItemsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuItemsTableViewCell.swift; sourceTree = "<group>"; };
+		8BED1DC61E40FEC6007A990B /* SideMenuItemsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenuItemsTableViewCell.xib; sourceTree = "<group>"; };
 		D969827F1E3D37A100A2D8EC /* Lahta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lahta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D96982821E3D37A100A2D8EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D96982841E3D37A100A2D8EC /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				D96982891E3D37A100A2D8EC /* Assets.xcassets */,
 				D969828B1E3D37A100A2D8EC /* LaunchScreen.storyboard */,
 				D969828E1E3D37A100A2D8EC /* Info.plist */,
+				8BED1DC51E40FEC6007A990B /* SideMenuItemsTableViewCell.swift */,
+				8BED1DC61E40FEC6007A990B /* SideMenuItemsTableViewCell.xib */,
 			);
 			path = Lahta;
 			sourceTree = "<group>";
@@ -96,7 +102,8 @@
 				TargetAttributes = {
 					D969827E1E3D37A100A2D8EC = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = 7XSVATSQ6N;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -125,6 +132,7 @@
 			files = (
 				D969828D1E3D37A100A2D8EC /* LaunchScreen.storyboard in Resources */,
 				D969828A1E3D37A100A2D8EC /* Assets.xcassets in Resources */,
+				8BED1DC81E40FEC6007A990B /* SideMenuItemsTableViewCell.xib in Resources */,
 				D96982881E3D37A100A2D8EC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BED1DC71E40FEC6007A990B /* SideMenuItemsTableViewCell.swift in Sources */,
 				D96982851E3D37A100A2D8EC /* MainScreenViewController.swift in Sources */,
 				D96982831E3D37A100A2D8EC /* AppDelegate.swift in Sources */,
 			);
@@ -258,11 +267,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7XSVATSQ6N;
 				INFOPLIST_FILE = Lahta/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = sergey.kobzin.Lahta;
+				PRODUCT_BUNDLE_IDENTIFIER = kinect.pro.Lahta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -272,11 +282,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7XSVATSQ6N;
 				INFOPLIST_FILE = Lahta/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = sergey.kobzin.Lahta;
+				PRODUCT_BUNDLE_IDENTIFIER = kinect.pro.Lahta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -301,6 +312,7 @@
 				D96982931E3D37A100A2D8EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

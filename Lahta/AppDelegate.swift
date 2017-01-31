@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Lahta
 //
-//  Created by Сергей Кобзин on 28.01.17.
+//  Created by Sergey Kobzin on 28.01.17.
 //  Copyright © 2017 Sergey.Kobzin. All rights reserved.
 //
 
