@@ -54,15 +54,28 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ebw-pk-BlL" userLabel="Content View">
                                         <rect key="frame" x="270" y="0.0" width="320" height="568"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KN6-sy-yeG">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background With Title" translatesAutoresizingMaskIntoConstraints="NO" id="KN6-sy-yeG" userLabel="Background Image View">
                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                             </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W3K-0V-nHK" userLabel="Menu Button">
+                                                <rect key="frame" x="0.0" y="20" width="44" height="44"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="44" id="SQG-ib-AZI"/>
+                                                    <constraint firstAttribute="height" constant="44" id="nzB-10-W8Z"/>
+                                                </constraints>
+                                                <state key="normal" image="Menu"/>
+                                                <connections>
+                                                    <action selector="menuButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R8P-aH-k0A"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="KN6-sy-yeG" firstAttribute="top" secondItem="Ebw-pk-BlL" secondAttribute="top" id="8Vr-3c-GUK"/>
                                             <constraint firstAttribute="bottom" secondItem="KN6-sy-yeG" secondAttribute="bottom" id="Ajo-sM-Iwc"/>
+                                            <constraint firstItem="W3K-0V-nHK" firstAttribute="leading" secondItem="Ebw-pk-BlL" secondAttribute="leading" id="Gcn-TI-Uak"/>
                                             <constraint firstAttribute="trailing" secondItem="KN6-sy-yeG" secondAttribute="trailing" id="oLT-We-uiP"/>
+                                            <constraint firstItem="W3K-0V-nHK" firstAttribute="top" secondItem="Ebw-pk-BlL" secondAttribute="top" constant="20" id="sqz-JN-N8d"/>
                                             <constraint firstItem="KN6-sy-yeG" firstAttribute="leading" secondItem="Ebw-pk-BlL" secondAttribute="leading" id="w4G-Um-EHF"/>
                                         </constraints>
                                     </view>
@@ -91,14 +104,18 @@
                     </view>
                     <connections>
                         <outlet property="contentView" destination="Ebw-pk-BlL" id="AhZ-6b-rEi"/>
+                        <outlet property="scrollView" destination="CXW-Zh-PkL" id="5Wp-6x-OCi"/>
                         <outlet property="sideMenuItemsTableView" destination="Sh9-jd-coX" id="VDm-FO-Az0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="24.375" y="32.74647887323944"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Background With Title" width="320" height="568"/>
         <image name="Logo Small" width="57" height="95"/>
+        <image name="Menu" width="21" height="16"/>
     </resources>
 </document>

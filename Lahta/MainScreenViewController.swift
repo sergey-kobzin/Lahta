@@ -12,6 +12,12 @@ class MainScreenViewController: UIViewController {
 
     @IBOutlet weak var contentView: UIView!
     @IBOutlet weak var sideMenuItemsTableView: UITableView!
+    @IBOutlet weak var scrollView: UIScrollView!
+    
+    @IBAction func menuButtonClick(_ sender: UIButton) {
+        let x = -scrollView.contentOffset.x + 270
+        scrollView.setContentOffset(CGPoint(x: x, y: 0), animated: true)
+    }
     
     var sideMenuItemsLabels: [String] = ["Информация", "Фотобанк", "Видеобанк", "Новости", "Связаться с нами", "Настройки"]
     var sideMenuItemsIcons: [UIImage] = [#imageLiteral(resourceName: "Info"), #imageLiteral(resourceName: "Photo"), #imageLiteral(resourceName: "Video"), #imageLiteral(resourceName: "News"), #imageLiteral(resourceName: "Mail"), #imageLiteral(resourceName: "Settings")]
@@ -25,8 +31,14 @@ class MainScreenViewController: UIViewController {
         
         contentView.layer.shadowOpacity = 0.3
         contentView.layer.shadowRadius = 5
+        
+        scrollView.setContentOffset(CGPoint(x: 270, y: 0), animated: false)
     }
-
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
