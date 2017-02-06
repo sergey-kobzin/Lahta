@@ -54,12 +54,6 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="riq-vX-dGG" userLabel="Content View">
                                         <rect key="frame" x="270" y="0.0" width="320" height="568"/>
                                         <subviews>
-                                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WJC-Ir-BzQ" userLabel="Main Screen Container View">
-                                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                                <connections>
-                                                    <segue destination="0G5-iB-EK3" kind="embed" id="zM5-D3-vVs"/>
-                                                </connections>
-                                            </containerView>
                                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iQV-Q4-9Jl" userLabel="Info Screen Container View">
                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                                 <connections>
@@ -94,6 +88,12 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                                 <connections>
                                                     <segue destination="38e-r1-wye" kind="embed" id="QqH-RL-gSP"/>
+                                                </connections>
+                                            </containerView>
+                                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WJC-Ir-BzQ" userLabel="Main Screen Container View">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                                <connections>
+                                                    <segue destination="0G5-iB-EK3" kind="embed" id="zM5-D3-vVs"/>
                                                 </connections>
                                             </containerView>
                                         </subviews>

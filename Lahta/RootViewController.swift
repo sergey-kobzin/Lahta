@@ -12,13 +12,13 @@ class RootViewController: UIViewController {
 
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var contentView: UIView!
-    @IBOutlet weak var mainScreenContainerView: UIView!
     @IBOutlet weak var infoScreenContainerView: UIView!
     @IBOutlet weak var photosScreenContainerView: UIView!
     @IBOutlet weak var videosScreenContainerView: UIView!
     @IBOutlet weak var newsScreenContainerView: UIView!
     @IBOutlet weak var contactUsScreenContainerView: UIView!
     @IBOutlet weak var settingsScreenContainerView: UIView!
+    @IBOutlet weak var mainScreenContainerView: UIView!
     @IBOutlet weak var sideMenuItemsTableView: UITableView!
     
     @IBAction func menuButtonClick(_ sender: UIButton) {
@@ -52,12 +52,12 @@ class RootViewController: UIViewController {
 
 }
 
-//MARK: - TableViewDelegate, TableViewDatasource
+// MARK: - TableViewDelegate, TableViewDatasource
 
 extension RootViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-
+        setActiveViewController(indexPath.row)
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -73,6 +73,39 @@ extension RootViewController: UITableViewDelegate, UITableViewDataSource {
         cell.setData(sideMenuItemsLabels[indexPath.row], sideMenuItemsIcons[indexPath.row])
         
         return cell
+    }
+    
+}
+
+// MARK: - Custom Functions
+
+extension RootViewController {
+    
+    func setActiveViewController(_ selectedIndex: Int) {
+        infoScreenContainerView.isHidden = true
+        photosScreenContainerView.isHidden = true
+        videosScreenContainerView.isHidden = true
+        newsScreenContainerView.isHidden = true
+        contactUsScreenContainerView.isHidden = true
+        settingsScreenContainerView.isHidden = true
+        mainScreenContainerView.isHidden = true
+        
+        switch selectedIndex {
+        case 0:
+            infoScreenContainerView.isHidden = false
+        case 1:
+            photosScreenContainerView.isHidden = false
+        case 2:
+            videosScreenContainerView.isHidden = false
+        case 3:
+            newsScreenContainerView.isHidden = false
+        case 4:
+            contactUsScreenContainerView.isHidden = false
+        case 5:
+            settingsScreenContainerView.isHidden = false
+        default:
+            mainScreenContainerView.isHidden = false
+        }
     }
     
 }
