@@ -10,6 +10,7 @@
 		8BED1DC71E40FEC6007A990B /* SideMenuItemsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BED1DC51E40FEC6007A990B /* SideMenuItemsTableViewCell.swift */; };
 		8BED1DC81E40FEC6007A990B /* SideMenuItemsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BED1DC61E40FEC6007A990B /* SideMenuItemsTableViewCell.xib */; };
 		8BF0890B1E48C311008A6BD9 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF0890A1E48C311008A6BD9 /* MainScreenViewController.swift */; };
+		8BF089121E48F28D008A6BD9 /* HeliosCondRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BF089111E48F28D008A6BD9 /* HeliosCondRegular.ttf */; };
 		D96982831E3D37A100A2D8EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96982821E3D37A100A2D8EC /* AppDelegate.swift */; };
 		D96982851E3D37A100A2D8EC /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96982841E3D37A100A2D8EC /* RootViewController.swift */; };
 		D96982881E3D37A100A2D8EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D96982861E3D37A100A2D8EC /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 		8BED1DC51E40FEC6007A990B /* SideMenuItemsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuItemsTableViewCell.swift; sourceTree = "<group>"; };
 		8BED1DC61E40FEC6007A990B /* SideMenuItemsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenuItemsTableViewCell.xib; sourceTree = "<group>"; };
 		8BF0890A1E48C311008A6BD9 /* MainScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		8BF089111E48F28D008A6BD9 /* HeliosCondRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = HeliosCondRegular.ttf; path = ../../../Downloads/HeliosCond/HeliosCondRegular/HeliosCondRegular.ttf; sourceTree = "<group>"; };
 		D969827F1E3D37A100A2D8EC /* Lahta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lahta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D96982821E3D37A100A2D8EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D96982841E3D37A100A2D8EC /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				D96982891E3D37A100A2D8EC /* Assets.xcassets */,
 				D969828B1E3D37A100A2D8EC /* LaunchScreen.storyboard */,
 				D969828E1E3D37A100A2D8EC /* Info.plist */,
+				8BF089111E48F28D008A6BD9 /* HeliosCondRegular.ttf */,
 				8BED1DC61E40FEC6007A990B /* SideMenuItemsTableViewCell.xib */,
 			);
 			path = Lahta;
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D969828D1E3D37A100A2D8EC /* LaunchScreen.storyboard in Resources */,
+				8BF089121E48F28D008A6BD9 /* HeliosCondRegular.ttf in Resources */,
 				D969828A1E3D37A100A2D8EC /* Assets.xcassets in Resources */,
 				8BED1DC81E40FEC6007A990B /* SideMenuItemsTableViewCell.xib in Resources */,
 				D96982881E3D37A100A2D8EC /* Main.storyboard in Resources */,

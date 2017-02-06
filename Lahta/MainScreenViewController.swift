@@ -3,7 +3,7 @@
 //  Lahta
 //
 //  Created by Developer on 06.02.17.
-//  Copyright © 2017 Sergey.Kobzin. All rights reserved.
+//  Copyright © 2017 Kinect.Pro. All rights reserved.
 //
 
 import UIKit

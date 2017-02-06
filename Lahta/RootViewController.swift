@@ -2,8 +2,8 @@
 //  RootViewController.swift
 //  Lahta
 //
-//  Created by Sergey Kobzin on 28.01.17.
-//  Copyright © 2017 Sergey.Kobzin. All rights reserved.
+//  Created by Developer on 28.01.17.
+//  Copyright © 2017 Kinect.Pro. All rights reserved.
 //
 
 import UIKit
@@ -21,12 +21,7 @@ class RootViewController: UIViewController {
     @IBOutlet weak var mainScreenContainerView: UIView!
     @IBOutlet weak var sideMenuItemsTableView: UITableView!
     
-    @IBAction func menuButtonClick(_ sender: UIButton) {
-        let x = -scrollView.contentOffset.x + 270
-        scrollView.setContentOffset(CGPoint(x: x, y: 0), animated: true)
-    }
-    
-    var sideMenuItemsLabels: [String] = ["Информация", "Фотобанк", "Видеобанк", "Новости", "Связаться с нами", "Настройки"]
+    var sideMenuItemsLabels: [String] = ["Info", "Фотобанк", "Видеобанк", "Новости", "Связаться с нами", "Настройки"]
     var sideMenuItemsIcons: [UIImage] = [#imageLiteral(resourceName: "Info"), #imageLiteral(resourceName: "Photo"), #imageLiteral(resourceName: "Video"), #imageLiteral(resourceName: "News"), #imageLiteral(resourceName: "Mail"), #imageLiteral(resourceName: "Settings")]
     
     override func viewDidLoad() {
@@ -106,6 +101,11 @@ extension RootViewController {
         default:
             mainScreenContainerView.isHidden = false
         }
+    }
+    
+    func toggleSideMenu() {
+        let x = -scrollView.contentOffset.x + 270
+        scrollView.setContentOffset(CGPoint(x: x, y: 0), animated: true)
     }
     
 }

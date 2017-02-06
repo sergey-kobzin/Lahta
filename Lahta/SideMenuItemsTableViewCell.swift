@@ -3,7 +3,7 @@
 //  Lahta
 //
 //  Created by Developer on 31.01.17.
-//  Copyright © 2017 Sergey.Kobzin. All rights reserved.
+//  Copyright © 2017 Kinect.Pro. All rights reserved.
 //
 
 import UIKit
@@ -25,6 +25,7 @@ class SideMenuItemsTableViewCell: UITableViewCell {
     }
     
     func setData(_ label: String?, _ icon: UIImage?) {
+        
         if let bindedLabel = label {
             titleLabel.text = bindedLabel
         } else {
