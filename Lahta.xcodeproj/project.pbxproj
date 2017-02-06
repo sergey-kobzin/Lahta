@@ -9,8 +9,9 @@
 /* Begin PBXBuildFile section */
 		8BED1DC71E40FEC6007A990B /* SideMenuItemsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BED1DC51E40FEC6007A990B /* SideMenuItemsTableViewCell.swift */; };
 		8BED1DC81E40FEC6007A990B /* SideMenuItemsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BED1DC61E40FEC6007A990B /* SideMenuItemsTableViewCell.xib */; };
+		8BF0890B1E48C311008A6BD9 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF0890A1E48C311008A6BD9 /* MainScreenViewController.swift */; };
 		D96982831E3D37A100A2D8EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96982821E3D37A100A2D8EC /* AppDelegate.swift */; };
-		D96982851E3D37A100A2D8EC /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96982841E3D37A100A2D8EC /* MainScreenViewController.swift */; };
+		D96982851E3D37A100A2D8EC /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96982841E3D37A100A2D8EC /* RootViewController.swift */; };
 		D96982881E3D37A100A2D8EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D96982861E3D37A100A2D8EC /* Main.storyboard */; };
 		D969828A1E3D37A100A2D8EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D96982891E3D37A100A2D8EC /* Assets.xcassets */; };
 		D969828D1E3D37A100A2D8EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D969828B1E3D37A100A2D8EC /* LaunchScreen.storyboard */; };
@@ -19,9 +20,10 @@
 /* Begin PBXFileReference section */
 		8BED1DC51E40FEC6007A990B /* SideMenuItemsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuItemsTableViewCell.swift; sourceTree = "<group>"; };
 		8BED1DC61E40FEC6007A990B /* SideMenuItemsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenuItemsTableViewCell.xib; sourceTree = "<group>"; };
+		8BF0890A1E48C311008A6BD9 /* MainScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
 		D969827F1E3D37A100A2D8EC /* Lahta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lahta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D96982821E3D37A100A2D8EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D96982841E3D37A100A2D8EC /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		D96982841E3D37A100A2D8EC /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		D96982871E3D37A100A2D8EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D96982891E3D37A100A2D8EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D969828C1E3D37A100A2D8EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -39,6 +41,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8BF089071E48BE49008A6BD9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D96982841E3D37A100A2D8EC /* RootViewController.swift */,
+				8BED1DC51E40FEC6007A990B /* SideMenuItemsTableViewCell.swift */,
+				8BF0890A1E48C311008A6BD9 /* MainScreenViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		D96982761E3D37A100A2D8EC = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +70,12 @@
 		D96982811E3D37A100A2D8EC /* Lahta */ = {
 			isa = PBXGroup;
 			children = (
+				8BF089071E48BE49008A6BD9 /* ViewControllers */,
 				D96982821E3D37A100A2D8EC /* AppDelegate.swift */,
-				D96982841E3D37A100A2D8EC /* MainScreenViewController.swift */,
 				D96982861E3D37A100A2D8EC /* Main.storyboard */,
 				D96982891E3D37A100A2D8EC /* Assets.xcassets */,
 				D969828B1E3D37A100A2D8EC /* LaunchScreen.storyboard */,
 				D969828E1E3D37A100A2D8EC /* Info.plist */,
-				8BED1DC51E40FEC6007A990B /* SideMenuItemsTableViewCell.swift */,
 				8BED1DC61E40FEC6007A990B /* SideMenuItemsTableViewCell.xib */,
 			);
 			path = Lahta;
@@ -144,8 +155,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BF0890B1E48C311008A6BD9 /* MainScreenViewController.swift in Sources */,
 				8BED1DC71E40FEC6007A990B /* SideMenuItemsTableViewCell.swift in Sources */,
-				D96982851E3D37A100A2D8EC /* MainScreenViewController.swift in Sources */,
+				D96982851E3D37A100A2D8EC /* RootViewController.swift in Sources */,
 				D96982831E3D37A100A2D8EC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
